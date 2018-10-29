@@ -19,7 +19,7 @@ while count <= 4_000_000:
     count = first + next
     if count % 2 is 0:
         sum += count
-
+    
     first = next
     next = count
 

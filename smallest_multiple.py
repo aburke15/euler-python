@@ -4,7 +4,7 @@
 
 def smallest_multiple(n):
     arr = []
-    for i in range(n + 1):
+    for i in range(2, n + 1):
         if is_prime(i):
             arr.append(i)
     return exponent(arr, n)
